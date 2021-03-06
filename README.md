@@ -30,7 +30,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Run in your project
 #### steps install
 
 1 - npm install --save ckeditor4-angular
@@ -41,3 +41,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 3 - To fix the problem in node module  An accessor cannot be declared in an ambient context.
 ###### Use:
     "skipLibCheck": true,
+
+
+#### Use Local 
+
+1 - Go to https://ckeditor.com/cke4/builder generate your custom editor
+
+2 - add editorUrl="/assets/ckeditor4/ckeditor/ckeditor.js"  in 
+
+###### HELP:
+https://ckeditor.com/docs/ckeditor4/latest/guide/dev_angular.html#customizing-ckeditor-preset-or-version

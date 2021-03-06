@@ -1,1 +1,6 @@
+<!-- Online Check Editor -->
 <ckeditor  [(ngModel)]="editorData"      ></ckeditor>
+
+
+<!-- Local Check Editor -->
+<ckeditor  editorUrl="/assets/ckeditor4/ckeditor/ckeditor.js"  [(ngModel)]="editorData"  [config]="config"     ></ckeditor>
